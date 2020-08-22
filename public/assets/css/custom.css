@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.text-custom-primary{
+    color: #fab915;
+}
+
+.text-custom-secondary{
+    color: #332b29;
+}
+
+.text-custom-tertiary{
+    color: #b61819;
+}
+
+.bg-custom-primary{
+    background-color: #fab915;
+}
+
+.bg-custom-secondary, .dropdown-item.active, .dropdown-item:active {
+    background-color: #332b29;
+}
+
+.bg-custom-secondary-50 {
+    background-color: rgba(51, 43, 41, .55);;
+}
+
+.bg-custom-tertiary{
+    background-color: #b61819;
+}
+
+.navbar-dark .navbar-nav .nav-link-custom-primary {
+    color: rgba(250, 185, 21, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link-custom-primary:hover {
+    color: rgba(250, 185, 21, .55);
+}
+
+.navbar-dark .navbar-nav .nav-link-custom-secondary {
+    color: rgba(51, 43, 41, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link-custom-secondary:hover {
+    color: rgba(51, 43, 41, .55);
+}
+
+.navbar-dark .navbar-nav .nav-link-custom-tertary {
+    color: rgba(182, 24, 25, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link-custom-tertary:hover {
+    color: rgba(182, 24, 25, .55);
+}
+
+.border-custom-primary{
+    border-color: #fab915;
+}
+
+a.back-to-top{
+    position: fixed;
+    bottom: 44px;
+    right: 4px;
+    text-decoration: none;
+    z-index: 1031;
+}
+
+.divider-top-secondary {
+	background-image: url('../../assets/images/divider/divider-top-secondary.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	background-position: top;
+}
+
+.divider-top-primary {
+	background-image: url('../../assets/images/divider/divider-top-primary.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	background-position: top;
+}
+
+.divider-top-dark {
+	background-image: url('../../assets/images/divider/divider-top-dark.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	background-position: top;
+}
+
+.divider-top {
+	background-image: url('../../assets/images/divider/divider-top.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	background-position: top;
+}
+
+.list-group-item.active{
+    background-color: #b61819;
+    border-color: #b61819;
+}
